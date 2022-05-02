@@ -1,0 +1,16 @@
+# Blender MTL File: 'None'
+# Material Count: 1
+
+newmtl None
+Ns 500
+Ka 0.8 0.8 0.8
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+
+map_Ka    leather/2K-Leather_23_Ambient Occlusion.jpg
+map_Kd    leather/2K-Leather_23_Base Color.jpg
+map_Ks    leather/2K-Leather_23_Metallic.jpg
+map_Kn    leather/2K-Leather_23_Normal.jpg
+map_Ns    leather/2K-Leather_23_Roughness.jpg 

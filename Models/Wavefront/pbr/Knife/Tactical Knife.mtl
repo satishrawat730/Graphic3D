@@ -1,0 +1,30 @@
+# Blender MTL File: 'Tactical Knife.blend'
+# Material Count: 2
+
+newmtl Blade
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.634863 0.104734
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kn    Knife-Low_Blade_Normal.png
+map_Kd      Knife-Low_Blade_BaseColor.png
+map_Ns      Knife-Low_Blade_Roughness.png
+map_Ks        Knife-Low_Blade_Metallic.png
+
+newmtl Handle
+Ns 323.999994
+Ka 1.000000 1.000000 1.000000
+Kd 0.183779 0.118461 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kn Knife-Low_Handle_Normal.png
+map_Kd   Knife-Low_Handle_BaseColor.png
+map_Ns   Knife-Low_Handle_Roughness.png
+map_Ks     Knife-Low_Handle_Metallic.png

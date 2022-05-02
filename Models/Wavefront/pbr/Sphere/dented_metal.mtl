@@ -1,0 +1,16 @@
+# Blender MTL File: 'None'
+# Material Count: 1
+
+newmtl None
+Ns 500
+Ka 0.8 0.8 0.8
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+
+map_Ka    dented_metal/dented-metal_ao.png
+map_Kd    dented_metal/dented-metal_albedo.png
+map_Ks    dented_metal/dented-metal_metallic.png
+map_Kn    dented_metal/dented-metal_normal-ogl.png
+map_Ns    dented_metal/dented-metal_roughness.png 

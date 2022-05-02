@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Mesh">
+      <UniqueIdentifier>{268a43d4-b3da-4cb7-ab64-0427dabc8888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lights">
+      <UniqueIdentifier>{55936c38-a643-4bc1-af06-3cba227a74fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="OpenScene">
+      <UniqueIdentifier>{13caa352-3952-4000-8d71-a60964ceb6c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Camera">
+      <UniqueIdentifier>{e31e01c8-a29d-4a2e-8fcf-e9f7ded3135b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain">
+      <UniqueIdentifier>{42ccaa30-e39e-4c3d-90eb-8ccf438ac9fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{e930fb88-63e8-400d-8d82-6def831b28cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\imgui">
+      <UniqueIdentifier>{f409c21f-106e-456d-9626-44e652df554e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\post-processing">
+      <UniqueIdentifier>{5c78e4b6-fb70-4b30-919b-2befcf0c1ab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Grid">
+      <UniqueIdentifier>{aee332ab-439a-427a-ad0c-198bdf58938b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Shader">
+      <UniqueIdentifier>{5ec420ee-2429-467c-8e82-405138371e5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderFiles">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{210b8fb3-9aeb-4282-8f9d-dae93eb9461b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Log">
+      <UniqueIdentifier>{7be0cf69-315a-484f-a2dd-326b541fdf6c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Texture.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Material.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ElementFactory.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ModelLoader.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Model.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mesh.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DirectionalLight.cpp">
+      <Filter>Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Light.cpp">
+      <Filter>Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PointLight.cpp">
+      <Filter>Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Entry.cpp">
+      <Filter>OpenScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene.cpp">
+      <Filter>OpenScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.cpp">
+      <Filter>Engine\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PerspectiveCamera.cpp">
+      <Filter>Engine\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Terrain.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3dParty\imgui\imgui.cpp">
+      <Filter>UI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3dParty\imgui\imgui_demo.cpp">
+      <Filter>UI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3dParty\imgui\imgui_draw.cpp">
+      <Filter>UI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3dParty\imgui\imgui_tables.cpp">
+      <Filter>UI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3dParty\imgui\imgui_widgets.cpp">
+      <Filter>UI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GLAppUI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3dParty\backends\imgui_impl_glfw.cpp">
+      <Filter>UI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3dParty\backends\imgui_impl_opengl3.cpp">
+      <Filter>UI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fbo.cpp">
+      <Filter>Engine\post-processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RocketEngine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LogManager.cpp">
+      <Filter>Utilities\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Grid.cpp">
+      <Filter>Engine\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shader.cpp">
+      <Filter>Engine\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ShaderManager.cpp">
+      <Filter>Engine\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Headers\Common.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\glad.c">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers\DirectionalLight.h">
+      <Filter>Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Light.h">
+      <Filter>Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\PointLight.h">
+      <Filter>Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Mesh.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ModelLoader.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Model.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Scene.h">
+      <Filter>OpenScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Texture.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Material.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ElementFactory.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Camera.h">
+      <Filter>Engine\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\PerspectiveCamera.h">
+      <Filter>Engine\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Terrain.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3dParty\imgui\imconfig.h">
+      <Filter>UI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3dParty\imgui\imgui.h">
+      <Filter>UI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3dParty\imgui\imgui_internal.h">
+      <Filter>UI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3dParty\imgui\imstb_rectpack.h">
+      <Filter>UI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3dParty\imgui\imstb_textedit.h">
+      <Filter>UI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3dParty\imgui\imstb_truetype.h">
+      <Filter>UI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GLAppUI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3dParty\backends\imgui_impl_glfw.h">
+      <Filter>UI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3dParty\backends\imgui_impl_opengl3.h">
+      <Filter>UI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Fbo.h">
+      <Filter>Engine\post-processing</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\RocketEngine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\LogManager.h">
+      <Filter>Utilities\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MySink.h">
+      <Filter>Utilities\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Grid.h">
+      <Filter>Engine\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Shader.h">
+      <Filter>Engine\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ShaderManager.h">
+      <Filter>Engine\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Common.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pbr.fs">
+      <Filter>ShaderFiles</Filter>
+    </None>
+    <None Include="pbr.vs">
+      <Filter>ShaderFiles</Filter>
+    </None>
+    <None Include="Experimental.fs">
+      <Filter>ShaderFiles</Filter>
+    </None>
+    <None Include="Experimental.vs">
+      <Filter>ShaderFiles</Filter>
+    </None>
+    <None Include="NormalMap.vs">
+      <Filter>ShaderFiles</Filter>
+    </None>
+    <None Include="NormalMap.fs">
+      <Filter>ShaderFiles</Filter>
+    </None>
+    <None Include="passthrough.vs">
+      <Filter>ShaderFiles</Filter>
+    </None>
+    <None Include="passthrough.fs">
+      <Filter>ShaderFiles</Filter>
+    </None>
+    <None Include="ADS.vs">
+      <Filter>ShaderFiles</Filter>
+    </None>
+    <None Include="ADS.fs">
+      <Filter>ShaderFiles</Filter>
+    </None>
+    <None Include="ScreenSpace.fs">
+      <Filter>ShaderFiles</Filter>
+    </None>
+    <None Include="ScreenSpace.vs">
+      <Filter>ShaderFiles</Filter>
+    </None>
+    <None Include="TerrainFShader.fs">
+      <Filter>ShaderFiles</Filter>
+    </None>
+    <None Include="TerrainVShader.vs">
+      <Filter>ShaderFiles</Filter>
+    </None>
+    <None Include="colorFilter.fs">
+      <Filter>ShaderFiles</Filter>
+    </None>
+  </ItemGroup>
+</Project>

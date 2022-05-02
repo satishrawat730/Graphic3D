@@ -1,0 +1,17 @@
+# Blender MTL File: 'helmet.blend'
+# Material Count: 1
+
+newmtl Material.003
+Ns 201.369591
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+map_Kn   helmet_clean_Helmet_NormalOpenGL.png
+map_Kd   helmet_clean_Helmet_BaseColor.png
+map_Ks    helmet_clean_Helmet_Metallic.png
+map_Ns    helmet_clean_Helmet_Roughness.png

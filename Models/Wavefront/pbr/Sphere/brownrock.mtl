@@ -1,0 +1,16 @@
+# Blender MTL File: 'None'
+# Material Count: 1
+
+newmtl None
+Ns 500
+Ka 0.8 0.8 0.8
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+
+map_Ka    brownrock/graniterockface1_Ambient_Occlusion.png
+map_Kd    brownrock/graniterockface1_Base_Color.png
+map_Ks    brownrock/graniterockface1_Metallic.png
+map_Kn    brownrock/graniterockface1_Normal.png
+map_Ns    brownrock/graniterockface1_Roughness.png 
